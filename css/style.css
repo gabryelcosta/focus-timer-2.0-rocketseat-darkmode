@@ -1,0 +1,110 @@
+@import url(./reset.css);
+@import url(./root.css);
+
+body {
+  font-family: var(--tt-main);
+  background: var(--bg-main);
+  color: var(--c-texttimer);
+  min-height: 100vh;
+}
+
+.container {
+  display: grid;
+  min-width: 100vw;
+  gap: 20rem;
+  align-content: center;
+  justify-content: center;
+}
+
+.focusTimer {
+  align-self: center;
+  justify-self: center;
+}
+
+.timer {
+  font-size: 12.6rem;
+  font-weight: 500;
+
+  display: flex;
+  justify-content: center;
+
+  margin-bottom: 4.8rem;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.soundButtons {
+  display: flex;
+  flex-wrap: wrap;
+  grid-column: 2;
+  align-self: center;
+  justify-self: center;
+  row-gap: 3rem;
+  column-gap: 3rem;
+
+  width: 33rem;
+  height: 35rem;
+}
+
+.card {
+  position: relative;
+}
+
+.control-volume {
+  display: flex;
+  position: absolute;
+  bottom: 3rem;
+  right: .8rem;
+  width: fit-content;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
+}
+
+.darkmodebuttons {
+  display: grid;
+  min-width: 100vw;
+  margin-bottom: 7rem;
+}
+
+.day {
+  justify-self: end;
+  margin: 6rem;
+}
+
+.night {
+  justify-self: end;
+  margin: 6rem;
+}
+
+/* darkmode */
+
+.darkmode {
+  background: #29292E;
+  color: white;
+}
+
+.darkmodebutton svg path {
+  fill:white;
+}
+
+.darkmodebutton svg .fill {
+  fill: #C4C4CC;
+}
+
+.darkmodebutton svg .on {
+  fill: #0A3442;
+}

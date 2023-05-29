@@ -1,0 +1,10 @@
+:root {
+  /* Fontes */
+  font-size: 62.5%;
+  --tt-main: 'Roboto', sans-serif;
+
+  /* Cores */
+  --bg-main: #FFFFFF;
+
+  --c-texttimer: #323238;
+}
